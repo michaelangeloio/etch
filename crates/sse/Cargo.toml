@@ -1,0 +1,19 @@
+[package]
+name = "sse"
+version = "0.1.0"
+edition = "2024"
+description = "A type-safe, efficient Server-Sent Events (SSE) client implementation"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+futures-util = { workspace = true }
+hyper = { workspace = true }
+bytes = { workspace = true }
+tokio = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+pin-project-lite = { workspace = true }
+
+[dev-dependencies]
+http-body-util = { workspace = true }
